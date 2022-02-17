@@ -1,0 +1,56 @@
+DESAFIOS JAVASCRIPT
+
+/*class Usuario {
+    tructor (librosleidos,descuento) {
+        this.librosleidos = librosleidos,
+        this.descuento = descuento
+    }
+
+clasificarCliente () {
+        return "¡Felicitaciones, te clasificamos como cliente:\n"+
+                this.librosleidos + this.descuento
+    } 
+}
+
+const usuario1 = new Usuario ("Black.", " Accedes a un descuento del 5%.");
+const usuario2 = new Usuario ("Platinum.", " Accedes a un descuento del 10%");
+const usuario3 = new Usuario ("Gold.", " Accedes a un descuento del 15%");
+
+alert ("¡Bienvenida/o a Delivery Book!");
+let cliente = parseInt(prompt(" En Delivery Book premiamos tu afición a la lectura. Te ofrecemos descuentos en tus compras. Para definir tu perfil, te solicitamos nos compartas ¿Cuántos libros leíste en los últimos 12 meses? Elige de entre las siguientes opciones: 1: Hasta 12 libros. 2: De 13 a 24 libros. 3: Más de 24 libros "));
+
+switch (cliente) {
+        case 1 : 
+            alert(usuario1.clasificarCliente());
+            break;
+        case 2 :
+            alert(usuario2.clasificarCliente());    
+            break;
+        case 3 :
+            alert(usuario3.clasificarCliente());
+            break;
+}
+
+alert("Te invitamos a conocer nuestro simulador de descuentos, y así podrás conocer cuánto dinero ahorrarás en tu compra.")*/    
+
+/*const formulario = document.querySelector('#formulario');
+const boton = document.querySelector('#boton');
+const resultado = document.querySelector('#resultado');*/
+
+/*boton.addEventListener('click', filtrar);*/
+
+/* Calculador de descuentos */
+
+// document.querySelector('#calcular2').addEventListener('click', () =>{
+//     const n1 = parseInt(document.querySelector('#inversion').value);
+//     const op = document.querySelector('#categoria').value;
+//     let calculo;
+//     if(op == 'Gold'){
+//         calculo = ("Tu descuento es de $") + n1 * 0.20;
+//     }else if( op == 'Premium'){
+//         calculo = ("Tu descuento es de $") + n1 * 0.15;
+//     }else if(op == 'Black'){
+//         calculo = ("Tu descuento es de $") + n1 * 0.10;
+//     }
+//     document.querySelector('#calculo').innerHTML = calculo;
+// });
