@@ -1,5 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 *{
     margin: 0px;
+}
+
+.nav-item a:hover {
+    background-color:#8188ee;
+}
+
+
+.banner{
+    width: 200px;
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    overflow:hidden;
+    top:0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.listaBanner{
+    list-style: none;
+    animation: cambiar 7s infinite;
+}
+
+@keyframes cambiar {
+    0%{margin-top:0;}
+    20%{margin-top:0;}
+
+    25%{margin-top:-15px;}
+    50%{margin-top:-15px;}
+
+    55%{margin-top:-30px;}
+    80%{margin-top:-30px;}
+
+    85%{margin-top:-30px;}
+    95%{margin-top:-30px;}
+
+    100%{margin-top:0;}
 }
 
 .menuHeader {
@@ -75,6 +115,7 @@ h1{
 .shopping-cart-total {
     min-height: 96px;
 }
+
 
 
 

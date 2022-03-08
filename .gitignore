@@ -54,3 +54,38 @@ const resultado = document.querySelector('#resultado');*/
 //     }
 //     document.querySelector('#calculo').innerHTML = calculo;
 // });
+
+
+OCULTAR HEADER  
+$(".header").on('click',function() {
+    $(this).hide().delay(1500).show(1500);
+    });
+
+/*Desafío AJAX JSON*/
+
+const urlJason = 'https://jsonplaceholder.typicode.com/users'
+const data = {email:"Sincere@april.biz", password:"1"}
+
+$('#login').click(() => {
+    $.post(urlJason, data, (respuesta, estado) => {
+        if (estado === "success"){
+            $('name').prepend('<div>Guardado:${respuesta.email} </div>');
+        }
+    });
+});
+
+CALCULADOR DE descuentos
+<main class="text-center mt-4">
+<h1>Simulador de Descuentos</h1>
+<div class="container mt-4 mb-4">
+<input type="text" id="inversion" placeholder="monto de compra">
+
+<select id="categoria">
+    <option value="Gold">Gold</option>
+    <option value="Premium">Premium</option>
+    <option value="Black">Black</option>
+</select>
+
+<button id="calcular2">Calcular</button>
+
+<outputid id="calculo"></output> 

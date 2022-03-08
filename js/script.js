@@ -13,7 +13,6 @@ const productos = [
 ]
 
 $('#formulario');
-$('#boton');
 $('#resultado');
 
 
@@ -37,7 +36,6 @@ const filtrar = ()=>{
 } 
 }
 
-$('boton').on('click','filtrar');
 formulario.addEventListener('keypress', filtrar);
 
 
@@ -170,20 +168,21 @@ $('.addToCart').on('click',function(){
 });
 
 
-$(".header").on('click',function() {
-    $(this).hide().delay(1500).show(1500);
-    });
+/* PETICIONES ASÍNCRONAS*/
+var contenido = document.querySelector('#contenido')
+function traer() {
+    fetch('compra.txt')
+    .then(data => data.text())
+    .then(data =>{
+        alert(data)
+    })
+}
 
-
-/*Desafío AJAX JSON*/
-
-const urlJason = 'https://jsonplaceholder.typicode.com/users'
-const data = {email:"Sincere@april.biz", password:"1"}
-
-$('#login').click(() => {
-    $.post(urlJason, data, (respuesta, estado) => {
-        if (estado === "success"){
-            $('name').prepend('<div>Guardado:${respuesta.email} </div>');
-        }
-    });
-});
+var login = document.querySelector('#login')
+function traerApi() {
+    fetch('https://randomuser.me/api/')
+    .then(res => res.json())
+    .then(data =>{
+        console.log(data.results['0'].name)
+    })
+}
