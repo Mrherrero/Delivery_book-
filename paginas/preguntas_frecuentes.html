@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delivery Book | Preguntas Frecuentes</title>
+<link rel="icon" href="../imagenes/logo.png">
+<link href="../css/mis_estilos.css" rel="stylesheet">
+<import java.util.Arrays></import>
+
+<!-- Bootstrap CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light navheader">
+        <div class="container-fluid">
+                <img src="../imagenes/logo delivery book.png" alt="logo Delivery Book">
+    
+            <!-- Boton para el menú de navegación responsive -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Mostrar / Ocultar Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Menu de navegacion -->
+            <div class="collapse navbar-collapse fontnavbar" id="menu">
+                <ul class="navbar-nav me-auto mb-0 p-0">
+                    <li class="nav-item">
+                        <a href="../paginas/costos_de_envio.html" class="nav-link">Costos de Envío</a>
+                    </li>
+    
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="dropdown-menu">
+                            Mi cuenta
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-item">Ingresar</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Registrarse</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" id="formulario" placeholder="¿Qué libro buscás?">
+                </form>
+                <ul id="resultado">
+                    <p class="oculto"></p>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <figure class="text-center">
+            <blockquote class="blockquote p-2">
+                <p>
+                <h3><strong>Preguntas más consultadas</strong></h3>
+                </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                También podés enviarnos tus consultas por whatsapp
+                <a href="https://web.whatsapp.com/" target="_blank"class="text-reset">A nuestro número</a>
+            </figcaption>
+        </figure>
+        <div class="row text-center justify-content-center mt-5">
+            <div class="col-sm-2 bg-light bg-gradient m-3 p-3 rounded-top border border-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-credit-card-2-back" viewBox="0 0 16 16">
+                    <path d="M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z" />
+                    <path
+                        d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z" />
+                </svg>
+                <p class="text-primary mt-2 mb-4"><strong>Formas de pago</strong></p>
+                <p class="text-secondary lh-1"><strong>Hasta 12 cuotas</strong> con tarjetas bancarizadas
+                    <strong>¡SIN INTERES!</strong>
+                </p>
+                <p class="text-primary lh-1">Podés abonar con tarjeta de débito, crédito o efectivo.</p>
+            </div>
+            <div class="col-sm-2 bg-light bg-gradient m-3 p-3 rounded-top border border-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-truck"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                </svg>
+                <p class="text-primary mt-2 mb-4"><strong>Tiempos de entrega</strong></p>
+                <p class="text-secondary lh-1">CABA Prioritario: 24 hs hábiles.</p>
+                <p class="text-secondary lh-1">CABA y GBA: de 2 a 4 días hábiles.</p>
+                <p class="text-secondary lh-1">Interior: de 2 a 5 días hábiles.</p>
+                <p class="text-primary  lh-1"><strong>Envío Gratis con tu compra superior a $7.900</strong></p>
+            </div>
+            <div class="col-sm-2 bg-light bg-gradient m-3 p-3 rounded-top border border-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-shop"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z" />
+                </svg>
+                <p class="text-primary mt-2 mb-4"><strong>Cambios</strong></p>
+                <p class="text-secondary lh-1">Podés realizar el cambio de tu compra online en locales de forma mucho
+                    más ágil.</p>
+            </div>
+            <div class="col-sm-2 bg-light bg-gradient m-3 p-3 rounded-top border border-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path
+                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                </svg>
+                <p class="text-primary mt-2 mb-4"><strong>Atención al cliente</strong></p>
+                <p class="text-secondary lh-1">Chat en línea 24 hs.</p>
+                <p class="text-secondary lh-1">El equipo de Atención al Cliente podría demorarse en responder debido a
+                    la cantidad de consultas
+                    recibidas.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <hr style="color: #aaaaaa" class="justify-content-center" size="4">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-3 mb-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-11">
+                    <div class="accordion accordion-flush border border-primary" id="accordionFlushExample">
+                        <div class="accordion-item border border-primary">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    ¿Cómo Comprar?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="lh-1"> Para comenzar recomendamos que te inicies sesión en el sitio. Si no
+                                        tenés una cuenta, podés crear una fácilmente con mail y contraseña.
+                                    </p>
+                                    <p class="lh-1"> Podés navegar el sitio a través de las distintas categorías en
+                                        busca de los productos que quieras comprar, o bien utilizar el buscador para
+                                        encontrar algo específico.
+                                    </p>
+                                    <p class="lh-1">A medida que encuentres productos de tu interés, podrás ir
+                                        agregandolos a tu carrito antes de finalizar la compra. Para agregar un producto
+                                        a tu carrito debés seleccionar primero su variante de color y talle.
+                                    </p>
+                                    <p class="lh-1">No hay un límite de cantidad de productos para agregar al carrito.
+                                        Para ver qué producto tenés pre-seleccionados o finalizar tu compra, accedé al
+                                        ícono de bolsa en la parte superior derecha de tu pantalla. Allí podrás avanzar
+                                        para finalizar la compra, o ver un detalle de tu carrito.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border border-primary">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    ¿Es seguro ingresar los datos de mi tarjeta de crédito en www.Deliverybook.com.ar?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="lh-1">Sí, es seguro ingresar los datos de tu tarjeta de crédito.
+                                        Entendemos que la seguridad de tu información personal es de suma importancia
+                                        para cada usuario. Cumplimos con el estándar internacional de protección de
+                                        datos, para que tu información personal y la de tu tarjeta de crédito, esté
+                                        protegida ante accesos no autorizados.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border border-primary">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    ¿Es seguro comprar en www.Deliverybook.com.ar?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="lh-1">Sí, es seguro. Ni tus datos personales, como tampoco el contenido de
+                                        tu pedido será compartido ni divulgados bajo ningún concepto. Estos datos no
+                                        serán utilizados para otros fines, más que para el procesamiento de sus pedidos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+<footer>
+    <div class="p-2 mb-1 bg-secondary text-white">
+        <div class="row mt-4">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <h6 class="text-uppercase fw-bold mb-3">Sigamos conectados</h6>
+                <p>Suscribite a nuestro Newsletter</p>
+                <form class="row g-3">
+                    <div class="col-auto">
+                        <label for="inputPassword2" class="visually-hidden">Email</label>
+                        <input type="password" class="form-control" id="inputPassword2"
+                            placeholder="Ingresá tu email">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Suscribirme</button>
+                    </div>
+                </form>
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="../imagenes/facebook_rrss.png" alt="ícono facebook">
+                    </a>
+                    <a href="https://www.instagram.com/?hl=es" target="_blank">
+                        <img src="../imagenes/instagram_rrss.png" alt="ícono instagram">
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <img src="../imagenes/whatsapp_rrss.png" alt="ícono whatsapp">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <h6 class="text-uppercase fw-bold mb-3">Nosotros</h6>
+                <p><a href="#" class="text-reset text-decoration-none">Términos y Condiciones</a>
+                </p>
+                <p><a href="#" class="text-reset text-decoration-none" class="#">Políticas de Devolución</a></p>
+                <p><a href="#" class="text-reset text-decoration-none"
+                        class="text-reset text-decoration-none">Costos de Envíos</a></p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <h6 class="text-uppercase fw-bold mb-3">Ayuda</h6>
+                <p><a href="#" class="text-reset text-decoration-none"
+                        class="text-reset text-decoration-none">Preguntas Frecuentes</a></p>
+                <p><a href="paginas/medios_de_pago.html"
+                        class="text-reset text-decoration-none">Medios de Pago</a></p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Botón de Arrepentimiento
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <img src="../imagenes/logo delivery book.png delivery book.png">
+                                <class="modal-title text-black id=" exampleModalLabel">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-black">
+                                <ul>
+                                    <li>
+                                        <h6>La cancelación podrá solicitarse en un plazo no mayor a los 10 días
+                                            hábiles de la compra.</h6>
+                                    </li>
+                                    <li>
+                                        <h6>El producto no debe de haber sido utilizado.</h6>
+                                    </li>
+                                    <li>
+                                        <h6>Por último, sólo se podrá solicitar la cancelación de la totalidad de
+                                            los productos adquiridos. No se
+                                            aceptan cancelaciones parciales.</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary"
+                                    data-bs-dismiss="modal">Acepto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <a href="https://www.afip.gob.ar/sitio/externos/default.asp" target="_blank">
+                    <img src="../imagenes/afip.png" alt="QR Afip" width="120">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../js/jquery-3.6.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
