@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delivery Book | Términos y Condiciones</title>
+<link rel="icon" href="../imagenes/logo.png">
+<link href="../css/mis_estilos.css" rel="stylesheet">
+<import java.util.Arrays></import>
+
+<!-- Bootstrap CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light navheader">
+        <div class="container-fluid">
+                <img src="../imagenes/logo delivery book.png" alt="logo Delivery Book">
+    
+            <!-- Boton para el menú de navegación responsive -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Mostrar / Ocultar Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Menu de navegacion -->
+            <div class="collapse navbar-collapse fontnavbar" id="menu">
+                <ul class="navbar-nav me-auto mb-0 p-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Costos de Envío</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Envíos Express</a>
+                    </li>
+    
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="dropdown-menu">
+                            Mi cuenta
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-item">Ingresar</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Registrarse</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" id="formulario" placeholder="¿Qué libro buscás?">
+                </form>
+                <ul id="resultado">
+                    <p class="oculto"></p>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col">
+                <p class="text-decoration-underline fw-bold">Términos y Condiciones</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="lh-1">Bienvenidos a WWW.DeliveryBook.com.ar, sitio web perteneciente a Delivery Book KIDS S.A(en adelante
+                        “Delivery Book”),
+                        CUIT XX-XXXXXXXX-X, con domicilio legal en XXXXXXXX, piso X “X”, de la Ciudad de Córdoba.
+                        Por favor, lea los Términos y Condiciones Generales (en adelante, los “Términos y
+                        Condiciones”) que se describen a continuación. Estos se aplicarán para la navegación del Sitio
+                        de Internet WWW.Delivery Book.COM.AR (en adelante, el “Website” o “Sitio”) y los servicios ofrecidos en
+                        él.
+                    </p>
+                    <p class="lh-1"><strong>HABEAS DATA:</strong>SUS DATOS FORMARÁN PARTE DE NUESTRA BASE DE DATOS UNA
+                        VEZ INGRESADOS EN EL PRESENTE
+                        WEB SITE. USTED PODRÁ EJERCER SUS DERECHOS DE ACCESO, RECTIFICACIÓN O SUPRESIÓN, Y SOLICITAR SU
+                        EXCLUSIÓN CONFORME LO DISPUESTO POR LA LEY 25.326 EN SU ART. 27 ENVIANDO UNA CARTA A Delivery Book KIDS
+                        S.A
+                        DOMICILIADA EN XXXXXXXX, PROVINCIA DE CÓRDOBA O UN CORREO ELECTRÓNICO A LA
+                        DIRECCIÓN ATC@Delivery Book.COM.AR.
+                    </p>
+                    <p class="lh-1">
+                        EL TITULAR DE LOS DATOS PERSONALES TIENE LA FACULTAD DE EJERCER EL DERECHO DE ACCESO A LOS
+                        MISMOS EN FORMA GRATUITA A INTERVALOS NO INFERIORES A SEIS MESES, SALVO QUE SE ACREDITE UN
+                        INTERÉS LEGÍTIMO AL EFECTO CONFORME LO ESTABLECIDO EN EL ARTÍCULO 14, INCISO 3 DE LA LEY Nº
+                        25.326.
+                    </p>
+                    <p class="lh-1">
+                        LOS USUARIOS AUTORIZAN A Delivery Book A DIFUNDIR Y CEDER LOS DATOS PROVISTOS CON FINES COMERCIALES Y
+                        DE PUBLICIDAD, SIN DERECHO DE COMPENSACIÓN ALGUNA. LOS DATOS PERSONALES RECABADOS PODRÁN SER
+                        TRANSFERIDOS A PAÍSES SIN LOS NIVELES DE SEGURIDAD ADECUADOS.
+                    </p>
+                    <p class="lh-1">
+                        <strong>LA DIRECCION NACIONAL DE PROTECCION DE DATOS PERSONALES, ÓRGANO DE CONTROL DE LA LEY Nº
+                            25.326, TIENE LA ATRIBUCIÓN DE ATENDER LAS DENUNCIAS Y RECLAMOS QUE SE INTERPONGAN CON
+                            RELACIÓN AL INCUMPLIMIENTO DE LAS NORMAS SOBRE PROTECCIÓN DE DATOS PERSONALES.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Aceptación y conocimiento de los Términos y Condiciones
+                    </p>
+                    <p class="lh-1">
+                        Los presentes Términos y Condiciones tienen carácter obligatorio y vinculante, por lo que es
+                        importante que los lea con detenimiento. Se aplican exclusivamente a todas las compras y
+                        actividades realizadas mediante el Website, no a las adquisiciones realizadas de modo presencial
+                        en alguno de los locales de Delivery Book. El uso del Sitio implica el conocimiento y la aceptación de
+                        ellos. Si usted no está de acuerdo con los Términos y Condiciones, deberá abstenerse de utilizar
+                        el Website y/o los servicios por él ofrecidos. Por “Usuario” del Website se entiende a todas
+                        aquellas personas que utilicen el Website, estén o no registrados en el mismo.
+                    </p>
+                    <p class="lh-1">
+                        Para concretar una compra a través del Sitio el Usuario, esté o no registrado, tendrá que
+                        aceptar expresamente los presentes Términos y Condiciones.
+                    </p>
+                    <p class="lh-1">
+                        Para permitirles a los Usuarios una más rápida familiarización con estos Términos y Condiciones
+                        podrán consultar también todas las demás instrucciones para operar en el Website, como por
+                        ejemplo, las páginas de ayuda o de preguntas frecuentes que las sintetizan, y que también forman
+                        parte de estos Términos y Condiciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Modificación de los Términos y Condiciones
+                    </p>
+                    <p class="lh-1">
+                        Delivery Book podrá, a su exclusivo criterio, sustituir o modificar los Términos y Condiciones en
+                        cualquier momento, sin necesidad de requerir el consentimiento de los Usuarios. Para las
+                        transacciones en curso que hayan comenzado con anterioridad a dichas modificaciones, subsistirán
+                        las condiciones vigentes al momento de su concertación, a menos que las nuevas modificaciones
+                        introducidas fueran más convenientes para el Usuario
+                    </p>
+                    <p class="lh-1">
+                        Delivery Book pondrá un aviso en el Website alertando a los Usuarios sobre estos cambios, durante un
+                        tiempo razonable. Los Usuarios son responsables de leer estos Términos y Condiciones cada vez
+                        que ingresen al Website para ver si han sufrido modificaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Interrupción del Servicio - Exclusión de responsabilidad
+                    </p>
+                    <p class="lh-1">
+                        Delivery Book se reserva el derecho de interrumpir, suspender o modificar en cualquier momento los
+                        servicios ofrecidos en el presente Website, ya sea en forma permanente o transitoria. No se
+                        requerirá la conformidad de los Usuarios, ni será necesario aviso previo alguno.
+                    </p>
+                    <p class="lh-1">
+                        Asimismo, Delivery Book no garantiza la funcionalidad ni el acceso o uso permanente del Website, que
+                        podría interrumpirse por cuestiones técnicas ajenas a Delivery Book.
+                    </p>
+                    <P class="lh-1">
+                        Delivery Book no garantiza que el Website se encuentre libre de virus o cualquier otro
+                        elemento que pueda llegar a dañar o alterar el normal funcionamiento de un ordenador. Es
+                        responsabilidad y obligación exclusiva del Usuario contar con las herramientas adecuadas para
+                        detectar, desinfectar y/o prevenir cualquier tipo de elementos y/o posibles daños de esta
+                        naturaleza.
+                    </P>
+                    <P class="lh-1">
+                        Delivery Book no se responsabiliza por cualquier daño que pueda producirse en los equipos informáticos
+                        de los Usuarios o de terceros como consecuencia de la navegación del presente Website.
+                    </P>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Registración
+                    </p>
+                    <p class="lh-1">
+                        Los Usuarios pueden navegar libremente por el Website. Se sugiere estar registrados para poder
+                        realizar alguna compra, pero también se podrá realizar como invitado sin la necesidad de
+                        registrarse.
+                    </p>
+                    <p class="lh-1">
+                        La registración de los Usuarios se realiza ingresando al Website, y no tiene costo alguno.
+                        Para registrarse, es obligatorio completar el formulario Crear Curenta en todos los campos con
+                        datos válidos y verdaderos, de manera exacta y precisa. Para un correcto funcionamiento del
+                        sistema, es necesario que los Usuarios mantengan sus datos actualizados en el Website. Delivery Book
+                        podrá proceder a verificar la identidad del Usuario y/o de los datos consignados por éste.
+                    </p>
+                    <P class="lh-1">
+                        Delivery Book no se responsabiliza por la veracidad o certeza de los datos provistos por los Usuarios.
+                        Asimismo, Delivery Book se reserva el derecho de suspender temporal o definitivamente a los Usuarios en
+                        caso de incumplimiento de los Términos y Condiciones, como así también de rechazar solicitudes
+                        y/o pedidos realizados.
+                    </P>
+                    <P class="lh-1">
+                        Así como Delivery Book se compromete a mantener la confidencialidad de los datos aportados por los
+                        Usuarios para su registro, los Usuarios se comprometen a mantener la confidencialidad de su
+                        nombre y clave de acceso. De conformidad con lo expresado en el párrafo anterior, los Usuarios
+                        son responsables del uso que se haga de su clave y deberán tener presente que si otras personas
+                        tienen o pueden tener en el futuro acceso a la cuenta de e-mail consignada como propia en el
+                        formulario de registración, éstas también podrían solicitar su clave de acceso y nombre de
+                        Usuario. Es obligación exclusiva del Usuario tomar las medidas pertinentes para que esto no
+                        suceda. El Usuario se compromete a notificar inmediatamente y de manera fehaciente a Delivery Book
+                        cualquier uso no autorizado de su Cuenta de Usuario, y a mantenerlo indemne en el caso de que se
+                        esto produzca algún daño a la Empresa o a terceros.
+                    </P>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Cookies
+                    </p>
+                    <p class="lh-1">
+                        El Website podrá utilizar un sistema de seguimiento mediante cookies, para que el acceso a la
+                        información, al pasar de página en página, se realice con mayor rapidez. También ayuda en
+                        algunos casos a identificar a los Usuarios, sin necesidad de solicitarles la clave de acceso una
+                        y otra vez.
+                    </p>
+                    <p class="lh-1">
+                        Estas cookies son pequeños archivos que envía la página visitada y se alojan en el disco duro
+                        del ordenador, ocupando poco espacio.
+                    </p>
+                    <P class="lh-1">
+                        Se hace saber a los Usuarios que utilizando las opciones de su navegador podrán limitar o
+                        restringir según su voluntad el alojamiento de estas cookies, aunque es desaconsejable
+                        restringirlas totalmente.
+                    </P>
+                    <P class="lh-1">
+                        El sistema podrá recoger información sobre sus preferencias e intereses. En el caso de que esto
+                        ocurra, la información será utilizada exclusivamente con fines estadísticos para mejorar los
+                        servicios que se prestan en el Website. Delivery Book aplicará, en la mayor medida en que sea posible,
+                        procedimientos de disociación de la información de modo que los titulares de los datos sean
+                        inidentificables.
+                    </P>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Disponibilidad y precio de los productos ofrecidos
+                    </p>
+                    <p class="lh-1">
+                        Mientras el Usuario navega el web site para efectuar una compra, deberá tener en cuenta, de
+                        acuerdo al tiempo que le demande la elección de artículos, que los productos seleccionados
+                        pueden ser adquiridos por otros usuarios en forma previa o simultánea. Debido a esta
+                        circunstancia, de no encontrarse más en stock algún artículo, el sistema no le permitirá al
+                        usuario finalizar el proceso y deberá iniciar la compra nuevamente. Toda compra se encuentra
+                        sujeta a disponibilidad.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Opciones del Usuario ante productos agotados
+                    </p>
+                    <p class="lh-1">
+                        En concordancia con el punto anterior, en caso de que el o los productos adquiridos se
+                        encontraren agotados, Delivery Book le reintegrará el dinero al cliente. La devolución se efectuará
+                        hacia el mismo medio de pago con el que realizó la compra.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Devolución del Importe abonado
+                    </p>
+                    <p class="lh-1">
+                        En los casos mencionados en el punto anterior en que el Usuario haya optado por la devolución
+                        del
+                        importe abonado, deberá tener en cuenta que el reintegro puede demorar algunos días, debido a
+                        plazos
+                        y cuestiones administrativas.
+                    </p>
+                    <p class="lh-1">
+                        La devolución se hará a través del mismo medio de pago utilizado por el Usuario al momento de la
+                        compra del producto.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Validez de las Promociones
+                    </p>
+                    <p class="lh-1">
+                        En el caso de que se realicen ofertas y promociones de productos, éstas tendrán validez para las
+                        compras efectuadas durante el período de vigencia de las ofertas y promociones. Los términos y
+                        condiciones de las mismas serán comunicados en el Website, y estarán siempre sujetas a la
+                        existencia en stock de los productos ofrecidos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Derecho de Arrepentimiento - Devolución de los Productos
+                    </p>
+                    <p class="lh-1">
+                        <strong>El Usuario tendrá derecho a devolver los productos adquiridos en el Website durante el
+                            plazo de diez (10) días corridos, contados a partir de la entrega del producto o se celebre
+                            el contrato, lo último que ocurra, sin responsabilidad alguna.</strong>
+                    </p>
+                    <p class="lh-1">
+                        Deberá gestionarlo desde el botón de arrepentimiento, ubicado al final de nuestra pagina
+                        inicial. El mismo cancela la compra automáticamente. De lo contrario, deberás gestionarlo a
+                        través de nuestro WhatsApp: envíanos un mensaje en el horario de atención de Lunes a Viernes 10
+                        a 18hrs al 3515226123 .Deberás seleccionar: menú principal; opción C (Atención al Cliente) >
+                        opción B (otras consultas) > opción B (atención al cliente e-commerce) > opción 9 (contactar
+                        operador).
+                    </p>
+                    <p class="lh-1">
+                        Los productos deberán estar en el mismo estado en que fueron recibidos, sin haber sido
+                        utilizados, y con el embalaje original, de lo contrario, no se aceptará la devolución.
+                    </p>
+                    <p class="lh-1">
+                        En este caso, el Usuario obtendrá la devolución del importe del producto adquirido, a través del
+                        mismo medio de pago original. En este caso, no se reintegrarán los gastos de envío, ya que el
+                        mismo es prestado por Andreani . En ambos casos, el costo de devolución del producto estará a
+                        cargo de Delivery Book.
+                        Asimismo, si el o los productos fueren despachados equivocadamente, el Usuario deberá
+                        comunicarse con Delivery Book a través de los mismos medios indicados en esta cláusula dentro del plazo
+                        de diez (10) días corridos contados a partir de la entrega del producto, para que Delivery Book
+                        proceda, según corresponda, a gestionar el retiro del producto equivocado y el re-despacho de la
+                        compra o el reintegro del monto abonado.
+                    </p>
+                    <p class="lh-1">
+                        Los productos no deben haber sido utilizados, y deben encontrarse en las mismas condiciones en
+                        que fueron recibidos, con sus embalajes y etiquetas. Por ejemplo, y a mero título ilustrativo,
+                        si el producto se encuentra en un envoltorio (“blíster”) plástico, éste debe ser abierto prolija
+                        y cuidadosamente, pues de lo contrario no podrá realizarse el cambio.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Moneda
+                    </p>
+                    <p class="lh-1">
+                        Todos los precios en el Website están expresados en pesos argentinos, moneda de curso legal de
+                        la República Argentina.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+<footer>
+    <div class="p-2 mb-1 bg-secondary text-white">
+        <div class="row mt-4">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <h6 class="text-uppercase fw-bold mb-3">Sigamos conectados</h6>
+                <p>Suscribite a nuestro Newsletter</p>
+                <form class="row g-3">
+                    <div class="col-auto">
+                        <label for="inputPassword2" class="visually-hidden">Email</label>
+                        <input type="password" class="form-control" id="inputPassword2"
+                            placeholder="Ingresá tu email">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Suscribirme</button>
+                    </div>
+                </form>
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="../imagenes/facebook_rrss.png" alt="ícono facebook">
+                    </a>
+                    <a href="https://www.instagram.com/?hl=es" target="_blank">
+                        <img src="../imagenes/instagram_rrss.png" alt="ícono instagram">
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <img src="../imagenes/whatsapp_rrss.png" alt="ícono whatsapp">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <h6 class="text-uppercase fw-bold mb-3">Nosotros</h6>
+                <p><a href="#" class="text-reset text-decoration-none">Términos y Condiciones</a>
+                </p>
+                <p><a href="#" class="text-reset text-decoration-none" class="#">Políticas de Devolución</a></p>
+                <p><a href="#" class="text-reset text-decoration-none"
+                        class="text-reset text-decoration-none">Costos de Envíos</a></p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <h6 class="text-uppercase fw-bold mb-3">Ayuda</h6>
+                <p><a href="#" class="text-reset text-decoration-none"
+                        class="text-reset text-decoration-none">Preguntas Frecuentes</a></p>
+                <p><a href="paginas/medios_de_pago.html"
+                        class="text-reset text-decoration-none">Medios de Pago</a></p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Botón de Arrepentimiento
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <img src="../imagenes/logo delivery book.png">
+                                <class="modal-title text-black id=" exampleModalLabel">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-black">
+                                <ul>
+                                    <li>
+                                        <h6>La cancelación podrá solicitarse en un plazo no mayor a los 10 días
+                                            hábiles de la compra.</h6>
+                                    </li>
+                                    <li>
+                                        <h6>El producto no debe de haber sido utilizado.</h6>
+                                    </li>
+                                    <li>
+                                        <h6>Por último, sólo se podrá solicitar la cancelación de la totalidad de
+                                            los productos adquiridos. No se
+                                            aceptan cancelaciones parciales.</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary"
+                                    data-bs-dismiss="modal">Acepto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <a href="https://www.afip.gob.ar/sitio/externos/default.asp" target="_blank">
+                    <img src="../imagenes/afip.png" alt="QR Afip" width="120">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../js/jquery-3.6.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+
+</body>
+</html>
