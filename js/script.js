@@ -186,3 +186,11 @@ function traerApi() {
         console.log(data.results['0'].name)
     })
 }
+
+/* NEWSLETTER */
+const suscription = document.querySelector('#suscription')
+suscription.addEventListener('click', () =>{
+    toastr["success"]("Semanalmente recibirás todas las novedades y promociones.", "¡Gracias por suscribirte!", {
+        "positionClass": "toast-bottom-left",
+});
+})

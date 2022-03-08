@@ -10,8 +10,10 @@
     <link href="css/mis_estilos.css" rel="stylesheet">
     <import java.util.Arrays></import>
 
-    <!-- Bootstrap CSS -->
+
+    <!-- ESTILOS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -256,18 +258,18 @@
                                 placeholder="Ingresá tu email">
                         </div>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3 onclick="suscription()">Suscribirme</button>
+                            <button type="submit" class="btn btn-primary mb-3" id="suscription">Suscribirme</button>
                         </div>
                     </form>
                     <div>
                         <a href="https://www.facebook.com/" target="_blank">
-                            <img src="imagenes/facebook_rrss.png" alt="ícono facebook">
+                            <img src="../imagenes/facebook_rrss.png" alt="ícono facebook">
                         </a>
                         <a href="https://www.instagram.com/?hl=es" target="_blank">
-                            <img src="imagenes/instagram_rrss.png" alt="ícono instagram">
+                            <img src="../imagenes/instagram_rrss.png" alt="ícono instagram">
                         </a>
                         <a href="https://web.whatsapp.com/" target="_blank">
-                            <img src="imagenes/whatsapp_rrss.png" alt="ícono whatsapp">
+                            <img src="../imagenes/whatsapp_rrss.png" alt="ícono whatsapp">
                         </a>
                     </div>
                 </div>
@@ -285,19 +287,19 @@
                             class="text-reset text-decoration-none">Preguntas Frecuentes</a></p>
                     <p><a href="paginas/medios_de_pago.html"
                             class="text-reset text-decoration-none">Medios de Pago</a></p>
-
+    
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Botón de Arrepentimiento
                     </button>
-
+    
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <img src="imagenes/logo delivery book.png">
+                                    <img src="../imagenes/logo delivery book.png">
                                     <class="modal-title text-black id=" exampleModalLabel">
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
@@ -328,13 +330,12 @@
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
                     <a href="https://www.afip.gob.ar/sitio/externos/default.asp" target="_blank">
-                        <img src="imagenes/afip.png" alt="QR Afip" width="120">
+                        <img src="../imagenes/afip.png" alt="QR Afip" width="120">
                     </a>
                 </div>
             </div>
         </div>
     </footer>
-
 
     <script src="js/jquery-3.6.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -344,7 +345,7 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 </body>
 
 </html>
